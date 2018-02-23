@@ -1,0 +1,55 @@
+.demo {
+    margin: 1em -20px 1em;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px #f6f8fa;
+}
+
+/*
+ * DEMO
+ * no-difference
+ */
+
+.demo-no-difference {
+    width: 220px;
+}
+
+.demo-no-difference h1 {
+
+}
+
+.demo-no-difference-pixels {
+    font-size: 12px;
+}
+
+.demo-no-difference-pixels h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.demo-no-difference-pixels h2 {
+
+}
+
+.demo-no-difference-pixels p {
+    font-size: 12px;
+}
+
+.demo-no-difference-pixels p span {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/*
+ * DEMO
+ * recursive-em
+ */
+
+.demo-recursive-em {
+    font-size: 60px;
+}
+
+.demo-recursive-em span {
+    font-size: 0.8em;
+    color: red;
+}
