@@ -1,3 +1,11 @@
+body {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
 .demo {
     width: 220px;
 }
@@ -25,5 +33,27 @@
 
 .demo-pixels p span {
     font-size: 10px;
+    text-transform: uppercase;
+}
+
+.demo-ems {
+    font-size: 1em;
+}
+
+.demo-ems h1 {
+    font-size: 1.666666667em;
+    font-weight: bold;
+}
+
+.demo-ems h2 {
+
+}
+
+.demo-ems p {
+    font-size: 1em;
+}
+
+.demo-ems p span {
+    font-size: 0.833333333em;
     text-transform: uppercase;
 }

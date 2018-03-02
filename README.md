@@ -16,6 +16,13 @@
 
 [CSS Styleguide](https://css-tricks.com/sass-style-guide/)
 
+## Quirks
+
+- Setting all caps type
+    - This can require you to "pull" the bottom up
+- Having large `letter-spacing` can cause extra space on the right
+- Difference between `line-height` and leading.
+
 ## Code
 
 ### Snippets
