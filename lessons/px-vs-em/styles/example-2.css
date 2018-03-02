@@ -1,0 +1,8 @@
+.demo-recursive-em {
+    font-size: 60px;
+}
+
+.demo-recursive-em span {
+    font-size: 0.8em;
+    color: red;
+}

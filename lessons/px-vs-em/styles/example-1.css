@@ -1,0 +1,29 @@
+.demo {
+    width: 220px;
+}
+
+.demo h1 {
+
+}
+
+.demo-pixels {
+    font-size: 12px;
+}
+
+.demo-pixels h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.demo-pixels h2 {
+
+}
+
+.demo-pixels p {
+    font-size: 12px;
+}
+
+.demo-pixels p span {
+    font-size: 10px;
+    text-transform: uppercase;
+}
