@@ -3,6 +3,7 @@
 ## Lessons
 
 - [How the browser works](tktk.com)
+    - [Learn More](https://codeburst.io/how-browsers-work-6350a4234634)
 - Normalizing browser differences
     - [None](/lessons/reset-css/none.html)
     - [Reset.css](/lessons/reset-css/reset.html)
