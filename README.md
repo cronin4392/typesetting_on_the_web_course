@@ -20,6 +20,13 @@ http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_w
 
 ## Links
 
+### Learning
+
+- [CSS ruleset terminology](https://css-tricks.com/css-ruleset-terminology/)
+- [Tracing the history of CSS fonts](https://www.chenhuijing.com/blog/tracing-the-history-of-css-fonts/#%F0%9F%8E%AE)
+- [Modern CSS explained](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
+- [How browsers work](https://codeburst.io/how-browsers-work-6350a4234634)
+
 ### Inspiration
 
 - [TypeWolf](https://www.typewolf.com/)
