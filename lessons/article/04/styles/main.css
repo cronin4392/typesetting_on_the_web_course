@@ -1,0 +1,183 @@
+body {
+    color: #333333;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+
+}
+
+.header-image {
+    height: 420px;
+    width: 100%;
+    position: relative;
+}
+
+.header-image img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-text {
+    font-family: "Rubik Mono";
+    font-size: 44px;
+    line-height: 0.954545455; /* 42px / 44px */
+    padding: 20px;
+}
+
+.header-meta {
+    font-family: "Rubik";
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.header-label {
+    background-color: #B9FFE3;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.header-date {
+    display: block;
+}
+
+.header-title {
+    text-transform: uppercase;
+}
+
+.header-title .test {
+    display: inline-block;
+    background-color: red;
+    height: 1.14ex;
+    width: 1.14ex;
+}
+
+.header-byline {
+    font-family: "Rubik";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.header-dek {
+    font-family: "Rubik";
+    font-size: 30px;
+    line-height: 1.2; /* 36px / 30px */
+    font-weight: 300;
+}
+
+.article-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.article-body > p {
+    font-family: "Noto Serif";
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+
+    margin-bottom: 24px;
+}
+
+.aside-quote {
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+
+.aside-quote:before {
+    content: "";
+    display: block;
+    height: 60px;
+    background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+    background-position: top left;
+    margin-bottom: 30px;
+}
+
+.aside-quote-quote {
+    font-family: "Rubik";
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 1.086956522; /* 50px / 46px */
+}
+
+.aside-quote-attribution {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.666666667; /* 20px / 12px */
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+    display: block;
+    margin-top: 24px;
+}
+
+@media (min-width: 960px) {
+    .header-image {
+        z-index: 1;
+    }
+
+    .header-text {
+        font-size: 78px;
+        line-height: 0.974358974; /* 76px / 78px */
+
+        max-width: 1240px;
+        padding: 20px 20px 20px 40px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        position: relative;
+        z-index: 2;
+
+        margin-top: calc(-1.14ex - 20px);
+    }
+
+    .header-meta {
+        width: 200px;
+        margin-right: 40px;
+    }
+
+    .header-titles {
+        flex: 1;
+    }
+
+    .header-title {
+
+    }
+
+    .article-body {
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aside-quote {
+        width: 440px;
+        float: right;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: -280px;
+    }
+}

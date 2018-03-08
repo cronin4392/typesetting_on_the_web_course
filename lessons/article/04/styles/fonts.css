@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Noto Serif";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/noto-serif-v6-latin-regular.woff2") format("woff2"),
+         url("../fonts/noto-serif-v6-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik Mono";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/rubik-mono-one-v6-latin-regular.woff2") format("woff2"),
+         url("../fonts/rubik-mono-one-v6-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../fonts/rubik-v7-latin-300.woff2") format("woff2"),
+         url("../fonts/rubik-v7-latin-300.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/rubik-v7-latin-regular.woff2") format("woff2"),
+         url("../fonts/rubik-v7-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/rubik-v7-latin-700.woff2") format("woff2"),
+         url("../fonts/rubik-v7-latin-700.woff") format("woff");
+}
