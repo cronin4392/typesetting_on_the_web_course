@@ -9,8 +9,8 @@
     - [Reset.css](/lessons/reset-css/reset.html)
     - [Normalize.css](/lessons/reset-css/normalize.html)
 - Typesetting a book
-    - Start - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/start.html) / [Code](https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/start.html)
-    - End - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/end.html) / [Code](https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/end.html)
+    - Start - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/01/index.html) / [Code](https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/01/index.html)
+    - End - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/02/index.html) / [Code](https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/02/index.html)
 
 
 ## Links
