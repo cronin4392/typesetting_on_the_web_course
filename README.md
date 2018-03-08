@@ -17,6 +17,8 @@
 
 [CSS Styleguide](https://css-tricks.com/sass-style-guide/)
 
+[Download Google Fonts](https://google-webfonts-helper.herokuapp.com/fonts/playfair-display?subsets=latin)
+
 ## Quirks
 
 - Setting all caps type

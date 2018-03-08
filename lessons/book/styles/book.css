@@ -1,0 +1,124 @@
+/*
+    Colors
+
+    blue: #3B5971
+    gray: #CCCCCC
+
+
+    Fonts
+
+    "Playfair Display"
+    "Georgia"
+*/
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #3B5971;
+}
+
+.title-page {
+    margin-top: 80px;
+    padding-top: 140px;
+    padding-bottom: 200px;
+    border-top: 1px solid #3B5971;
+    border-bottom: 1px solid #3B5971;
+
+    text-align: center;
+}
+
+.title-page h1 {
+    font-family: "Playfair Display";
+    font-size: 90px;
+    line-height: 1.166666667; /* 105px / 90px */
+    font-style: italic;
+}
+
+.title-page h2 {
+    font-family: "Georgia";
+    font-size: 22px;
+    line-height: 1.181818182; /* 26px / 22px */
+
+    margin-top: 60px;
+}
+
+.title-page h3 {
+    font-family: "Georgia";
+    font-size: 22px;
+    line-height: 1.181818182; /* 26px / 22px */
+
+    margin-top: 150px;
+}
+
+nav {
+    margin-top: 10px;
+    padding-top: 140px;
+    padding-bottom: 200px;
+    border-top: 1px solid #3B5971;
+    border-bottom: 1px solid #3B5971;
+
+    text-align: center;
+}
+
+nav h1 {
+    font-family: "Georgia";
+    font-size: 22px;
+    line-height: 1.181818182; /* 26px / 22px */
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+nav ol {
+    margin-top: 120px;
+    column-count: 2;
+}
+
+nav ol li {
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    break-inside: avoid;
+}
+
+nav ol li:after {
+    content: "—";
+    display: block;
+    color: #CCCCCC;
+    margin-top: 20px;
+    line-height: 0.2;
+}
+
+nav ol li a {
+    font-family: "Georgia";
+    font-size: 22px;
+    line-height: 1.181818182; /* 26px / 22px */
+    text-decoration: none;
+    color: inherit; /* better than setting the color to blue again */
+}
+
+section header {
+    /* TODO: style subsequent ones */
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 190px;
+}
+
+section header h1 {
+    font-family: "Playfair Display";
+    font-size: 62px;
+    line-height: 1.193548387; /* 74px / 62px */
+}
+
+section p {
+    font-family: "Georgia";
+    font-size: 26px;
+    line-height: 1.461538462; /* 38px / 26px */
+    margin-bottom: 40px;
+}
