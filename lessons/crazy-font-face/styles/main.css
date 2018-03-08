@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/rubik-mono-one-v6-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/rubik-v7-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/rubik-v7-latin-700.woff") format("woff");
+}
+
+.text {
+    font-family: "Playfair Display", "Rubik", cursive;
+    font-size: 3em;
+    /* font-weight: 700; */
+    /* font-style: italic; */
+}
