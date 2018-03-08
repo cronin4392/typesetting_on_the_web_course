@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.text {
+    font-family: "Oswald";
+    font-size: 80px;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.text span {
+    display: block;
+}
+
+.text .a {
+
+}
+
+.text .b {
+    line-height: 150px;
+}
+
+.text .c {
+
+}

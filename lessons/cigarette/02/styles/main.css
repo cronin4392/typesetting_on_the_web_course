@@ -1,0 +1,79 @@
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5; /* 21px / 14px */
+    text-align: center;
+    padding: 20px;
+    color: #111111;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 30px;
+    padding-bottom: 36px;
+
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+.package-label {
+    font-family: "Krona One";
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.package-title span {
+    display: block;
+
+    font-family: "Oswald";
+    line-height: 88px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.package-title span[data-text="natural"] {
+    font-size: 4.571428571em; /* 65px / 14px */
+    line-height: 1.108527132; /* 143px / 129px */
+}
+
+.package-title span[data-text="american"] {
+    font-size: 4em; /* 56px / 14px */
+    line-height: 1.151785714; /* 129px / 112px */
+}
+
+.package-title span[data-text="spirit"] {
+    font-size: 6.071428571em; /* 85px / 14px */
+    line-height: 1.023391813; /* 175px / 171px */
+}
+
+.package-description {
+    font-family: "Krona One";
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 0.5em; /* 7px / 14px */
+}
