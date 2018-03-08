@@ -1,0 +1,119 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSerif
+FamilyName:Noto Serif
+StyleName:Regular
+MenuName:Noto Serif
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Noto Serif
+WritingScript:Roman
+OutlineFileName:\NotoSerif-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:350668
+FileModTime:1361941200
+NameArray:0,Win,1,Noto Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Black
+FamilyName:Rubik
+StyleName:Black
+MenuName:Rubik Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Rubik Black
+WritingScript:Roman
+OutlineFileName:\Rubik-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145928
+FileModTime:1437544800
+NameArray:0,Mac,4,Rubik Black
+NameArray:0,Win,1,Rubik Black
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Bold
+FamilyName:Rubik
+StyleName:Bold
+MenuName:Rubik
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Rubik Bold
+WritingScript:Roman
+OutlineFileName:\Rubik-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:143356
+FileModTime:1437544800
+NameArray:0,Mac,4,Rubik Bold
+NameArray:0,Win,1,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Light
+FamilyName:Rubik
+StyleName:Light
+MenuName:Rubik Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Rubik Light
+WritingScript:Roman
+OutlineFileName:\Rubik-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:136816
+FileModTime:1437544800
+NameArray:0,Mac,4,Rubik Light
+NameArray:0,Win,1,Rubik Light
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RubikMonoOne-Regular
+FamilyName:Rubik Mono One
+StyleName:Regular
+MenuName:Rubik Mono One
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Rubik Mono One Regular
+WritingScript:Roman
+OutlineFileName:\RubikMonoOne-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:121204
+FileModTime:1399269600
+NameArray:0,Mac,4,Rubik Mono One Regular
+NameArray:0,Win,1,Rubik Mono One
+%EndFont
+

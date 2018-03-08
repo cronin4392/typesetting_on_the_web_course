@@ -11,11 +11,17 @@ http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_w
     - Reset.css - (http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/reset-css/reset.html) / [Code](/lessons/reset-css/reset.html)
     - Normalize.css - (http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/reset-css/normalize.html) / [Code](/lessons/reset-css/normalize.html)
 - Typesetting a book
+    - Designs - [Link](/designs/book)
     - Start - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/01/index.html) / [Code](/lessons/book/01/index.html)
     - End - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/book/02/index.html) / [Code](/lessons/book/02/index.html)
 - Pixels vs Ems
     - tktk
 - @font-face craziness - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/crazy-font-face/index.html) / [Code](/lessons/crazy-font-face)
+- Responsive article
+    - Designs - [Link](/designs/article)
+    - Start - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/article/01/index.html) / [Code](/lessons/article/01)
+    - Mobile layout - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/article/02/index.html) / [Code](/lessons/article/02)
+    - Desktop layout - [Preview](http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/lessons/article/03/index.html) / [Code](/lessons/article/03)
 
 
 ## Links
@@ -66,20 +72,58 @@ http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_w
 
 #### Center
 
-Block element
+Better box-sizing
 
 ```css
-display: block; /* not required */
-width: 680px; /* adjustable */
-margin-left: auto;
-margin-right: auto;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+```
+
+Responsive image
+
+```css
+img {
+    max-width: 100%;
+    height: auto;
+}
+```
+
+Horizontal center block element
+
+```css
+.center-me-horizontally {
+    display: block; /* not required */
+    width: 680px; /* adjustable */
+    margin-left: auto;
+    margin-right: auto;
+}
 ```
 
 Centering children
 
 ```css
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+```
+
+@font-face
+
+```css
+@font-face {
+    font-family: "My Font";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/myfont.woff2") format("woff2"),
+         url("../fonts/myfont.woff") format("woff");
+}
 ```

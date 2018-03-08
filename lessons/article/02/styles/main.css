@@ -1,0 +1,95 @@
+body {
+    color: #333333;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+
+}
+
+.header-image {
+    height: 420px;
+    width: 100%;
+    position: relative;
+}
+
+.header-image img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-text {
+    padding: 20px;
+}
+
+.header-label {
+    font-family: "Rubik";
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    background-color: #B9FFE3;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.header-date {
+    font-family: "Rubik";
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    display: block;
+}
+
+.header-title {
+    font-family: "Rubik Mono";
+    font-size: 44px;
+    line-height: 0.954545455; /* 42px / 44px */
+    text-transform: uppercase;
+}
+
+.header-byline {
+    font-family: "Rubik";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.header-dek {
+    font-family: "Rubik";
+    font-size: 30px;
+    line-height: 1.2; /* 36px / 30px */
+    font-weight: 300;
+}
+
+.article-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.article-body p {
+    font-family: "Noto Serif";
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+
+    margin-bottom: 24px;
+}
