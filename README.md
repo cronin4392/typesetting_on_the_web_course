@@ -33,6 +33,10 @@ http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_w
 - [Modern CSS explained](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 - [How browsers work](https://codeburst.io/how-browsers-work-6350a4234634)
 
+### Tools
+
+- [CSS Specificty Calculator](https://specificity.keegan.st/)
+
 ### Inspiration
 
 - [TypeWolf](https://www.typewolf.com/)
