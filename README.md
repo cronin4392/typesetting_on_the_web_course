@@ -36,6 +36,8 @@ http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_w
 ### Tools
 
 - [CSS Specificty Calculator](https://specificity.keegan.st/)
+- [Web Safe Fonts](https://www.cssfontstack.com/)
+- [CSS Support List](https://caniuse.com/)
 
 ### Inspiration
 
