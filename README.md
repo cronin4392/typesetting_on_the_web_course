@@ -1,6 +1,12 @@
-http://htmlpreview.github.io/?https://github.com/cronin4392/typesetting_on_the_web_course/blob/master/
-
 # typesetting_on_the_web_course
+
+## Contact
+
+Stephen Cronin
+[Senior Developer The Outline.com](https://theoutline.com)
+[Personal Website](http://scoobasteve.com)
+[Email - cronin4392@gmail.com](mailto:cronin4392@gmail.com)
+[Twitter - @cronin4392](https://twitter.com/cronin4392)
 
 ## Lessons
 
